@@ -1,5 +1,5 @@
 cd api
-make && sudo make install
+make && doas make install
 cd ..
 make config
 make && doas make install
